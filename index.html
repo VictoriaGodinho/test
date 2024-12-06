@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      margin: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #333;
+      color: white;
+    }
+    iframe {
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    
+  <header>
+    <h1>My Projects Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="#project1">Project 1</a>
+    <a href="#project2">Project 2</a>
+    <a href="#project3">Project 3</a>
+    <a href="#project4">Project 4</a>
+    <a href="#project5">Project 5</a>
+    <a href="#project6">Project 6</a>
+    <a href="extras.html">Extras</a>
+  </nav>
+
+  <!-- Home Page -->
+  <div class="container" id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Explore my projects and learn more about me.</p>
+  </div>
+
+  <!-- Project 1 Page -->
+  <div class="container" id="project1">
+    <h2>Project 1: Autobiographical Game</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/XJnKhDjTh" width="100%" height="400"></iframe>
+    <p>This is an autobiographical game where the character navigates through mazes reflecting my journey moving across countries.</p>
+  </div>
+
+  <!-- Project 2 Page -->
+  <div class="container" id="project2">
+    <h2>Project 2: Data Visualization</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/l618t5KuV" width="100%" height="400"></iframe>
+    <p>This data portrait tracks the duration of my showers over a week. Each circle represents a shower, with lighter colors and slower pulsations for longer showers, and darker colors with faster pulsations for shorter ones. The design, featuring a shower background and interactive bubbles, aims to raise awareness about water waste.</p>
+  </div>
+
+  <!-- Project 3 Page -->
+  <div class="container" id="project3">
+    <h2>Project 3: Optical Illusion</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/KGdMzONQm" width="100%" height="400"></iframe>
+    <p>This project explores the hypnotic effect of the ripple illusion, where expanding and contracting circles create a rhythmic and mesmerizing visual flow. The repetitive symmetry captivating, drawing the viewer into a meditative state.</p>
+  </div>
+
+  <!-- Project 4 Page -->
+  <div class="container" id="project4">
+    <h2>Project 4:  Experimental Clock</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/BoAeezQer" width="100%" height="400"></iframe>
+    <p>This experimental clock uses a jar to collect falling shapes that represent time: orange balls for seconds,yellow triangles for minutes, and red squares for hours. Inspired by how children learn to count, it reimagines time as a playful and visual experience.</p>
+  </div>
+
+  <!-- Project 5 Page -->
+  <div class="container" id="project5">
+    <h2>Project 5: Exquisite Corpse</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/kPARzVXDJ" width="100%" height="400"></iframe>
+    <p>This character combines elements from a snowman, robot, and alien/octopus, capable of adapting to any environment. </p>
+  </div>
+
+  <!-- Project 6 Page -->
+  <div class="container" id="project6">
+    <h2>Project 6:  Face Generator</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/bNASTT9nO" width="100%" height="400"></iframe>
+    <p>This generative art project creates unique faces with random colors and features influenced by user interaction.</p>
+  </div>
+
+  <!-- Project 7 Page -->
+  <div class="container" id="project7">
+    <h2>Project 7: Charger</h2>
+    <iframe src="https://editor.p5js.org/victoriagodinho/full/9Jcq0JTqB" width="100%" height="400"></iframe>
+    <p>My first-ever coding project, this piece experiments with creating art using numbers. It taught me key concepts like push and pop functions and working with fill colors.</p>
+  </div>
+
+  <!-- About Me Page -->
+  <div class="container" id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm a design and technology student at Parsons School of Design in NYC. My interests include digital design, web programming, and creating art using tools like JavaScript,  Photoshop and Procreate. My goal is to combine art and technology to create meaningful designs.</p>
+    <p>I reflect on how coding and technology have shaped my creative processes and career goals, helping me explore new artistic boundaries.</p>
+  </div>
+
+  <!-- Extras Page -->
+  <div class="container" id="extras">
+    <h2>Reflections on Learning</h2>
+    <p>This class has taught me the importance of combining creativity with coding, helping me develop technical skills while exploring personal expression through interactive projects.</p>
+    <p>Check out my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
+
